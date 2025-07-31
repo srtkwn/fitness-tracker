@@ -11,15 +11,14 @@ Key Features:
 	•	Daily logs reset automatically and are saved by date
 	•	Delete account option
 	•	Data stored locally in a JSON file
-    •   No UI implemented as of now - runs entirely in the terminal
+  • No UI implemented as of now - runs entirely in the terminal
 
 ⸻
 
 Project Files:
 	•	main.py – Main menu and program flow
-	•	data.py – Handles data storage, user info, and logs
-	•	utils.py – Connects to Edamam API for food data
-	•	track.py – (Optional) Can be used for summaries or analytics
+	•	data.py – Handles data storage, user info, and logs and tracks the data
+	•	utils.py – Connects to nutritionx API for food data
 	•	auth.json – Stores all user data and logs
 	•	requirements.txt – Contains the required Python modules
 
@@ -27,5 +26,5 @@ Project Files:
 
 How to Run:
 	1.	Install required packages: pip install -r requirements.txt
-	2.	Add your Edamam API credentials in utils.py
+	2.	Add your nutritionx API credentials in utils.py
 	3.	Run the program: python main.py
